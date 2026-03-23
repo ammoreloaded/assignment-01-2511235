@@ -1,0 +1,66 @@
+[
+	{
+	  "product_id": "P001",
+	  "product_name": "MSI Ryzen 7",
+	  "category": "Electronics",
+	  "brand": "MSI",
+	  "price": 85000,
+	  "specifications": {
+		"processor": "Intel Core i5 12th Gen",
+		"ram": "16GB",
+		"storage": "512GB SSD",
+		"screen_size": "15.6 inches"
+	  },
+	  "warranty": {
+		"period_years": 2,
+		"type": "Onsite Service"
+	  },
+	  "User_feedback": [
+		{
+		  "user": "Rohan Mehta",
+		  "rating": 4,
+		  "review": "Good performance for daily work."
+		},
+		{
+		  "user": "Anita Sharma",
+		  "rating": 5,
+		  "review": "Fast and reliable laptop."
+		}
+	  ]
+	},
+	{
+	  "product_id": "P002",
+	  "product_name": "Ergonomic Office Chair",
+	  "category": "Furniture",
+	  "brand": "Neelkamal",
+	  "price": 7200,
+	  "material": {
+		"frame": "Steel",
+		"seat": "Mesh",
+		"base": "Nylon"
+	  },
+	  "features": [
+		"Adjustable height",
+		"Lumbar support",
+		"Breathable mesh back"
+	  ]
+	},
+	{
+	  "product_id": "P003",
+	  "product_name": "Premium Notebook Set",
+	  "category": "Stationery",
+	  "brand": "Classmate",
+	  "price": 350,
+	  "pack_details": {
+		"items_per_pack": 5,
+		"pages_per_notebook": 200
+	  },
+	  "available_colors": [
+		"Blue",
+		"Black",
+		"Red",
+		"Green"
+	  ]
+	  
+	}
+]

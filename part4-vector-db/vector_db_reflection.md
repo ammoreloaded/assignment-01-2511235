@@ -1,0 +1,9 @@
+## Vector DB Use Case
+
+A traditional keyword-based database search would not be sufficient for this use case. Legal contracts are very data heavy and lengthy documents where the same concept can be expressed using different semantics and language. For example, a “termination clause” might be described as “conditions under which the agreement may be dissolved” or “grounds for ending the contract.” Keyword search relies on exact or partial text matches, so it may fail to retrieve relevant sections if the exact keywords are not present. This leads users to manually scan large portions of the document.
+
+However, a vector database enables **semantic search**, which understands the meaning of the search term rather than just matching words. In this system, each section or paragraph of the 500-page contract would be converted into embeddings using a language model. These embeddings capture the contextual meaning of the text. When a lawyer asks a question in plain English, the query is also converted into an embedding and compared against stored vectors using similarity measures such as cosine similarity.
+
+A vector database (such as ChromaDB) efficiently stores and indexes these embeddings, allowing fast retrieval of the most relevant contract sections even if the wording differs significantly. This significantly improves accuracy and user experience by returning contextually relevant results.
+
+Therefore, while keyword search is limited to lexical matching, a vector database plays a critical role in enabling intelligent, meaning-based search over large legal documents, making it far more suitable for this application.
